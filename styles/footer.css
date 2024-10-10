@@ -1,0 +1,68 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+.SectionFooterAB{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    
+}
+.sectionFooter{
+    width: 500px;
+}
+.sectionFooterA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px
+}
+.sectionFooterB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnRSContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.btnRS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 50px;
+    width: 400px;
+}
+.logoApple{
+    width: 50px;
+    margin: 20px;
+}
+.logoPlayStore{
+    width: 50px;
+    margin: 20px;
+}
+.textBtnContainer{
+    display: flex;
+    flex-direction: column;
+}
+.textBtnA{
+    font-size: 20px;
+}
+.textBtnB{
+    font-size: 30px;
+    font-weight: bold;
+}
+.SiguenosAdornosSection{
+    display: flex;
+    align-items: center;
+}
+.siguenosText{
+    font-size: 40px;
+}
