@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+.SectionFooterAB{
+    display: flex;
+    
+}
+.sectionFooter{
+    width: 450px;
+}
+.sectionFooterA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
