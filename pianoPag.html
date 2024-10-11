@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/mainPiano.css">
+    <link rel="stylesheet" href="./styles/piano.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo">
+        <nav>
+            <select name="Selecciona un instrumento" id="SelectInstrument">
+                <option value="" class="">Instrumentos</option>
+                <option value="">Guitarra</option>
+                <option value="">Piano</option>
+                <option value="">Bateria</option>
+                <option value="">Flauta</option>
+                <option value="">Marimba</option>
+            </select>
+            <select name="">
+                <option value="" class="navOption">Cursos de musica</option>
+                <option value="">Teoria musical</option>
+                <option value="">Produccion</option>
+                <option value="">Composicion</option>
+            </select>
+            <a href="#" class="navOption">¿Quienes Somos?</a>
+            <a href="#" class="navOption">Contactos</a>
+        </nav>
+    </header>
+    <main>
+
+
+
+        <div class="piano">
+            <div class="tecla">
+                <div class="teclaNegra Do" id="DoN"><span>C</span></div>
+                <span id="Do#">C#</span>
+            </div>
+            <div class="tecla">
+                <div id="Re" class="teclaNegra "><span>D</span></div>
+                <span id="Re#">D#</span>
+            </div>
+            <div class="tecla">
+                <span id="Mi">E</span>
+            </div>
+            <div class="tecla">
+                <div id="Fa" class="teclaNegra Fa"><span>F</span></div>
+                <span id="Fa#">F#</span>
+            </div>
+            <div class="tecla">
+                <div idSol class="teclaNegra Sol"><span>G</span></div>
+                <span id="Sol#">G#</span>
+            </div>
+            <div class="tecla">
+                <div id="La" class="teclaNegra La"><span>A</span></div>
+                <span id="La#">A#</span>
+            </div>
+            <div class="tecla">
+                <span id="Si">B</span>
+            </div>
+            <div class="tecla">
+                <div id="Do8" class="teclaNegra Do8"><span>C</span></div>
+                <span id="Do8#" class="Do#">C#</span>
+            </div>
+            <div class="tecla">
+                <div id="Re" class="teclaNegra"><span>D</span></div>
+                <span id="Re8#">D#</span>
+            </div>
+            <div class="tecla">
+                <span id="Mi8">E</span>
+            </div>
+            <div class="tecla">
+                <div id="Fa8" class="teclaNegra Fa8"><span>F</span></div>
+                <span id="Fa8#">F#</span>
+            </div>
+            <div class="tecla">
+                <div id="Sol8" class="teclaNegra Sol8"><span>G</span></div>
+                <span id="Sol8#">G#</span>
+            </div>
+            <div class="tecla">
+                <div id="La8" class="teclaNegra La8"><span>A</span></div>
+                <span id="La8#">A#</span>
+            </div>
+            <div class="tecla">
+                <span id="Si8">B</span>
+            </div>
+            
+        </div>
+
+
+
+
+    </main>
+    <footer>
+        <div class="SectionFooterAB">
+            <section class="sectionFooter sectionFooterA">
+                <p>Descarga Do-Re-MI Studio para aprender en cualquier parte</p>
+                <div class="btnRSContainer">
+                    <button class="btnRS">
+                        <img class="logoApple" src="./assets/logoApple.png" alt="">
+                        <div class="textBtnContainer">
+                            <span class="textBtnA">Download on the</span>
+                            <span class="textBtnB">App AppStoreBtn</span>
+                        </div>
+                    </button>
+                    <button class="btnRS">
+                        <img class="logoPlayStore" src="./assets/logoPlayStore.png" alt="">
+                        <div class="textBtnContainer">
+                            <span class="textBtnA">Android App On</span>
+                            <span class="textBtnB">Google Play</span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+            <section class="sectionFooter sectionFooterB">
+                <p>Al usar Do-Re-Mi Studio, usted acepta estos términos de servicio. Estos terminos de servicio fueron acualizados por ultima vez el 1 de Noviembre de 2021</p>
+                <p>Do-Re-Mi Studio, se compromete a proteger si información personal y su derecho a la privacidad.
+                    Crear una cuenta es sencillo y seguro, al tiempo que recopilamos una cantidad minima de datos. Esta política de privacidad fue actualizada por ultima vez el 1 de Junio del 2024
+                </p>
+            </section>
+        </div>
+        <div class="SiguenosAdornosSection">
+            <img src="./assets/adornoLeft.png" alt="">
+            <span class="siguenosText">Siguenos!</span>
+            <img src="./assets/adornoRight.png" alt="">
+        </div>
+        <section class="">
+            <div class="redesSociales">
+                <img class="logoRS" src="./assets/logoInstagram.png" alt="">
+                <img class="logoRS" src="./assets/logoSoundCloud.png" alt="">
+                <img class="logoRS" src="./assets/logoTwitter.png" alt="">
+                <img class="logoRS" src="./assets/logoFacebook.png" alt="">
+            </div>
+        </section>
+    </footer>
+    <script src="./scripts/piano.js"></script>
+</body>
+</html>
