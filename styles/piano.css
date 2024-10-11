@@ -1,28 +1,57 @@
 .piano{
     display: flex;
-}
-.tecla{
-    border: 1px solid black;
-    width: 70px;
     height: 300px;
     position: relative;
+}
+.tecla{
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    width: 70px;
+    height: 300px;
     float: left;
     border-radius: 0px 0px 6px 6px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 97%, rgba(157,157,157,1) 100%);
+        &:active{
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 69%, rgba(235,235,235,1) 97%, rgba(157,157,157,1) 100%);
+        }
 }
-.teclaNegra::after{
+.teclaNegra{
     content: "";
     position: absolute;
-    width: 20px;
+    width: 30px;
     height: 200px;
-    background-color: black;
+    background: rgb(70,70,70);
+    background: linear-gradient(180deg, rgba(70,70,70,1) 0%, rgba(22,22,22,1) 89%, rgba(0,0,0,1) 100%);
     border-bottom: 5px solid rgb(116, 116, 116);
-    left: 60px;
     border-radius: 0px 0px 8px 8px;
     z-index: 1000;
+    &:active{
+        background: rgb(13, 13, 13);
+        background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(22,22,22,1) 77%, rgba(0,0,0,1) 100%);
+    }
 }
-.Do{
+.CSos{
+    left: 55px;
+}
+.DSos{
+    left: 125px;
+}
+.FSos{
+    left: 265px;
+}
+.GSos{
+    left: 335px;
+}
+.ASos{
+    left: 405px;
+}
+span{
     width: 100%;
     height: 100%;
+}
+
+.panelDeControl{
+    margin-left: 50px;
+    margin-top: 50px;
 }

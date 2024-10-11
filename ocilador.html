@@ -17,7 +17,7 @@
             <select name="Selecciona un instrumento" id="SelectInstrument">
                 <option value="" class="">Instrumentos</option>
                 <option value="">Guitarra</option>
-                <option value="">Piano</option>
+                <option href="#" value="">Piano</option>
                 <option value="">Bateria</option>
                 <option value="">Flauta</option>
                 <option value="">Marimba</option>
@@ -37,61 +37,26 @@
 
 
         <div class="piano">
-            <div class="tecla">
-                <div class="teclaNegra Do" id="DoN"><span>C</span></div>
-                <span id="Do#">C#</span>
-            </div>
-            <div class="tecla">
-                <div id="Re" class="teclaNegra "><span>D</span></div>
-                <span id="Re#">D#</span>
-            </div>
-            <div class="tecla">
-                <span id="Mi">E</span>
-            </div>
-            <div class="tecla">
-                <div id="Fa" class="teclaNegra Fa"><span>F</span></div>
-                <span id="Fa#">F#</span>
-            </div>
-            <div class="tecla">
-                <div idSol class="teclaNegra Sol"><span>G</span></div>
-                <span id="Sol#">G#</span>
-            </div>
-            <div class="tecla">
-                <div id="La" class="teclaNegra La"><span>A</span></div>
-                <span id="La#">A#</span>
-            </div>
-            <div class="tecla">
-                <span id="Si">B</span>
-            </div>
-            <div class="tecla">
-                <div id="Do8" class="teclaNegra Do8"><span>C</span></div>
-                <span id="Do8#" class="Do#">C#</span>
-            </div>
-            <div class="tecla">
-                <div id="Re" class="teclaNegra"><span>D</span></div>
-                <span id="Re8#">D#</span>
-            </div>
-            <div class="tecla">
-                <span id="Mi8">E</span>
-            </div>
-            <div class="tecla">
-                <div id="Fa8" class="teclaNegra Fa8"><span>F</span></div>
-                <span id="Fa8#">F#</span>
-            </div>
-            <div class="tecla">
-                <div id="Sol8" class="teclaNegra Sol8"><span>G</span></div>
-                <span id="Sol8#">G#</span>
-            </div>
-            <div class="tecla">
-                <div id="La8" class="teclaNegra La8"><span>A</span></div>
-                <span id="La8#">A#</span>
-            </div>
-            <div class="tecla">
-                <span id="Si8">B</span>
-            </div>
+            
+            <div id="doN" class="tecla"></div>
+            <div id="doSosN" class="teclaNegra CSos"></div>
+            <div id="reN" class="tecla"></div>
+            <div id="reSosN" class="teclaNegra DSos"></div>
+            <div id="miN" class="tecla"></div>
+            <div id="faN" class="tecla"></div>
+            <div id="faSosN" class="teclaNegra FSos"></div>
+            <div id="solN" class="tecla"></div>
+            <div id="solSosN" class="teclaNegra GSos"></div>
+            <div id="laN" class="tecla"></div>
+            <div id="laSosN" class="teclaNegra ASos"></div>
+            <div id="siN" class="tecla"></div>
+            <div id="do8N" class="tecla"></div>
             
         </div>
-
+        <div class="panelDeControl">
+            <label for="volumen">Volumen</label>
+            <input type="range" id="volumen" min="0" max="1" step="0.01" value="0.5">
+        </div>
 
 
 
