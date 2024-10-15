@@ -1,0 +1,32 @@
+main{
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 6px;
+    padding: 50px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.233);
+}
+input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 3px;
+}
+.enviarBtn{
+    background-color: rgb(109, 185, 255);
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
