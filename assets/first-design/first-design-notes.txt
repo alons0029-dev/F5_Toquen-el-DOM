@@ -1,0 +1,16 @@
+NAVEGACIÓN
+- Inicio
+- Instrumentos
+- Sobre nosotros
+- Contacto
+
+CURSOS ONLINE & TEORÍA MUSICAL (Extra)
+
+FOOTER
+- Redes sociales
+
+CONTRASTES DE COLORES
+
+On HOVER - Instruments
+- Letras se iluminan
+- Borde con contraste (Color más fuerte al botón)

@@ -3,15 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/contacto.css">
-        <title>Do-Re-Web Lab</title>
+        <link rel="stylesheet" href="./styles/footer.css">
+        <title>Document</title>
     </head>
     <body>
         <header>
             <img src="./assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo">
             <nav>
-                <select title="Selecciona un instrumento" id="SelectInstrument">
+                <select name="Selecciona un instrumento" id="SelectInstrument">
                     <option value="" class="">Instrumentos</option>
                     <option value="">Guitarra</option>
                     <option value=""><a href="">Piano</a></option>
@@ -19,7 +21,7 @@
                     <option value="">Flauta</option>
                     <option value="">Marimba</option>
                 </select>
-                <select title="Menú">
+                <select name="">
                     <option value="" class="navOption">Cursos de musica</option>
                     <option value="">Teoria musical</option>
                     <option value="">Produccion</option>
@@ -29,13 +31,20 @@
                 <a href="#" class="navOption">Contactos</a>
             </nav>
         </header>
+        <main>
 
 
-<!-- aqui deberia ir el main -->
+            <h1>Contacto</h1>
+            <span>Contactate con nosotros!</span>
+            <form action="">
+                <input type="text" name="nombre" class="inputForm" id="nombreInput" placeholder="Escribe tu nombre.....">
+                <input type="email" name="correo" class="inputForm" id="correoInput" placeholder="Escribe tu correo.....">
+                <button class="enviarBtn">Enviar!</button>
+            </form>
 
 
 
-
+        </main>
         <footer>
             <div class="SectionFooterAB">
                 <section class="sectionFooterA">
@@ -45,7 +54,7 @@
                             <img class="logoApple" src="./assets/logoApple.png" alt="">
                             <div class="textBtnContainer">
                                 <span class="textBtnA">Download on the</span>
-                                <span class="textBtnB">App AppStore</span>
+                                <span class="textBtnB">App AppStoreBtn</span>
                             </div>
                         </button>
                         <button class="btnRS">
@@ -71,18 +80,10 @@
             </div>
             <section class="">
                 <div class="redesSociales">
-                    <a href="https://www.instagram.com/">
-                         <img class="logoRS" src="./assets/logoInstagram.png" alt="Instagram Logo" />
-                    </a>
-                    <a href="https://soundcloud.com/soundcloud">
-                        <img class="logoRS" src="./assets/logoSoundCloud.png" alt="SoundCloud Logo" />
-                    </a>
-                    <a href="https://x.com/">
-                        <img class="logoRS" src="./assets/logoTwitter.png" alt="Twitter / X Logo" />
-                    </a>
-                    <a href="https://www.facebook.com/">
-                        <img hrefclass="logoRS" src="./assets/logoFacebook.png" alt="Facebook Logo" />
-                    </a>
+                    <img class="logoRS" src="./assets/logoInstagram.png" alt="">
+                    <img class="logoRS" src="./assets/logoSoundCloud.png" alt="">
+                    <img class="logoRS" src="./assets/logoTwitter.png" alt="">
+                    <img class="logoRS" src="./assets/logoFacebook.png" alt="">
                 </div>
             </section>
         </footer>
