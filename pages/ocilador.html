@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./styles/mainPiano.css">
-    <link rel="stylesheet" href="./styles/piano.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/mainPiano.css" />
+    <link rel="stylesheet" href="/styles/main.inicio.css" />
+    <link rel="stylesheet" href="/styles/piano.css" />
+    <link rel="stylesheet" href="/styles/ocilador-piano.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="./assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo">
+        <img src="/assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo" />
         <nav>
-            <select title="Selecciona un instrumento" id="SelectInstrument">
-                <option value="" class="">Instrumentos</option>
-                <option value="">Guitarra</option>
-                <option href="#" value="">Piano</option>
-                <option value="">Bateria</option>
-                <option value="">Flauta</option>
-                <option value="">Marimba</option>
+            <select title="SelectInstrument" id="SelectInstrument" onchange="pageNav()">
+                <option value="">Selecciona un instrumento</option>
+                <option value="index.html">Home</option>
+                <option value="./pages/studio-grand.html">Grand Piano</option>
+                <option value="./pages/ocilador.html">Oscillator</option>
+                <option value="showAlert">Bateria</option>
+                <option value="showAlert">Guitarra</option>
+                <option value="showAlert">Flauta</option>
+                <option value="showAlert">Marimba</option>
             </select>
-            <select title="Menú">
-                <option value="" class="navOption">Cursos de musica</option>
-                <option value="">Teoria musical</option>
-                <option value="">Produccion</option>
-                <option value="">Composicion</option>
+            <select title="Menú" id="SelectMenu">
+                <option value="showAlert">Cursos de musica</option>
+                <option value="showAlert">Teoria musical</option>
+                <option value="showAlert">Produccion</option>
+                <option value="showAlert">Composicion</option>
             </select>
             <a href="#" class="navOption">¿Quienes Somos?</a>
-            <a href="#" class="navOption">Contactos</a>
+            <a href="#" class="navOption">Contacto</a>
         </nav>
     </header>
     <main>
-
-
-
         <div class="piano">
-            
             <div id="doN" class="tecla"></div>
             <div id="doSosN" class="teclaNegra CSos"></div>
             <div id="reN" class="tecla"></div>
@@ -51,15 +51,11 @@
             <div id="laSosN" class="teclaNegra ASos"></div>
             <div id="siN" class="tecla"></div>
             <div id="do8N" class="tecla"></div>
-            
         </div>
         <div class="panelDeControl">
             <label for="volumen">Volumen</label>
             <input type="range" id="volumen" min="0" max="1" step="0.01" value="0.5">
         </div>
-
-
-
     </main>
     <footer>
         <div class="SectionFooterAB">
@@ -74,7 +70,7 @@
                         </div>
                     </button>
                     <button class="btnRS">
-                        <img class="logoPlayStore" src="./assets/logoPlayStore.png" alt="">
+                        <img class="logoPlayStore" src="/assets/logoPlayStore.png" alt="">
                         <div class="textBtnContainer">
                             <span class="textBtnA">Android App On</span>
                             <span class="textBtnB">Google Play</span>
@@ -90,19 +86,20 @@
             </section>
         </div>
         <div class="SiguenosAdornosSection">
-            <img src="./assets/adornoLeft.png" alt="">
+            <img src="/assets/adornoLeft.png" alt="">
             <span class="siguenosText">Siguenos!</span>
-            <img src="./assets/adornoRight.png" alt="">
+            <img src="/assets/adornoRight.png" alt="">
         </div>
         <section class="">
             <div class="redesSociales">
-                <img class="logoRS" src="./assets/logoInstagram.png" alt="">
-                <img class="logoRS" src="./assets/logoSoundCloud.png" alt="">
-                <img class="logoRS" src="./assets/logoTwitter.png" alt="">
-                <img class="logoRS" src="./assets/logoFacebook.png" alt="">
+                <img class="logoRS" src="/assets/logoInstagram.png" alt="">
+                <img class="logoRS" src="/assets/logoSoundCloud.png" alt="">
+                <img class="logoRS" src="/assets/logoTwitter.png" alt="">
+                <img class="logoRS" src="/assets/logoFacebook.png" alt="">
             </div>
         </section>
     </footer>
-    <script src="./scripts/piano.js"></script>
+    <script src="/script.js"></script>
+    <script src="/scripts/ocilador.js"></script>
 </body>
 </html>
