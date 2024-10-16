@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/main.inicio.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <img src="./assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo" />
+            <nav>
+                <select title="SelectInstrument" id="SelectInstrument" onchange="pageNav()">
+                    <option value="">Selecciona un instrumento</option>
+                    <option value="index.html">Home</option>
+                    <option value="./pages/studio-grand.html">Grand Piano</option>
+                    <option value="./pages/ocilador.html">Oscillator</option>
+                    <option value="showAlert">Bateria</option>
+                    <option value="showAlert">Guitarra</option>
+                    <option value="showAlert">Flauta</option>
+                    <option value="showAlert">Marimba</option>
+                </select>
+                <select title="Menú" id="SelectMenu">
+                    <option value="showAlert">Cursos de musica</option>
+                    <option value="showAlert">Teoria musical</option>
+                    <option value="showAlert">Produccion</option>
+                    <option value="showAlert">Composicion</option>
+                </select>
+                <a href="#" class="navOption">¿Quienes Somos?</a>
+                <a href="#" class="navOption">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <section class="slider">
+                <img src="assets/maininicioimageupdated.png" alt="Imagen de piano con texto de slider" class="slider-img-large" />
+            </section>
+    
+            <!-- Botones de instrumentos -->
+            <section class="buttons">
+                <div class="btn">
+                    <a href="practicar_bateria.html">
+                        <img src="assets/IMAGENES_ELEMENTOS-01.png" alt="Practicar Batería" />
+                    </a>
+                </div>
+                <div class="btn">
+                    <a href="practicar_piano.html">
+                        <img src="assets/IMAGENES_ELEMENTOS-02.png" alt="Practicar Piano" />
+                    </a>
+                </div>
+                <div class="btn">
+                    <a href="practicar_guitarra.html">
+                        <img src="assets/IMAGENES_ELEMENTOS-03.png" alt="Practicar Guitarra" />
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="SectionFooterAB">
+                <section class="sectionFooterA">
+                    <p>Descarga Do-Re-MI Studio para aprender en cualquier parte</p>
+                    <div class="btnRSContainer">
+                        <button type="button" class="btnRS">
+                            <img class="logoApple" src="./assets/logoApple.png" alt="apple-logo" />
+                            <div class="textBtnContainer">
+                                <span class="textBtnA">Download on the</span>
+                                <span class="textBtnB">AppStore</span>
+                            </div>
+                        </button>
+                        <button type="button" class="btnRS">
+                            <img class="logoPlayStore" src="./assets/logoPlayStore.png" alt="playStore-logo" />
+                            <div class="textBtnContainer">
+                                <span class="textBtnA">Android App On</span>
+                                <span class="textBtnB">Google Play</span>
+                            </div>
+                        </button>
+                    </div>
+                </section>
+                <section class="sectionFooterB">
+                    <p>Al usar Do-Re-Mi Studio, usted acepta estos términos de servicio. Estos terminos de servicio fueron acualizados por ultima vez el 1 de Noviembre de 2021</p>
+                    <p>Do-Re-Mi Studio, se compromete a proteger si información personal y su derecho a la privacidad.
+                        Crear una cuenta es sencillo y seguro, al tiempo que recopilamos una cantidad minima de datos. Esta política de privacidad fue actualizada por ultima vez el 1 de Junio del 2024
+                    </p>
+                </section>
+            </div>
+            <div class="SiguenosAdornosSection">
+                <img src="./assets/adornoLeft.png" alt="decoration-asset" />
+                <span class="siguenosText">Siguenos!</span>
+                <img src="./assets/adornoRight.png" alt="decoration-asset" />
+            </div>
+            <section>
+                <div class="redesSociales">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="logoRS" src="./assets/logoInstagram.png" alt="instagram-logo" />
+                    </a>
+                    <a href="https://soundcloud.com/soundcloud">
+                        <img class="logoRS" src="./assets/logoSoundCloud.png" alt="soundcloud-logo" />
+                    </a>
+                    <a href="https://x.com/">
+                        <img class="logoRS" src="./assets/logoTwitter.png" alt="twitter-x-logo" />
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img class="logoRS" src="./assets/logoFacebook.png" alt="facebook-logo" />
+                    </a>
+                </div>
+            </section>
+        </footer>
+        <!-- Enlace al documento JS -->
+        <script src="./script.js"></script>
+    </body>
+</html>

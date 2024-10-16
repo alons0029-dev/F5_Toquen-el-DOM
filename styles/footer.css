@@ -1,0 +1,77 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+.SectionFooterAB{
+    display: flex;
+    justify-content: space-around;
+}
+.sectionFooterA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px
+}
+.sectionFooterB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        margin-left: 50px;
+    }
+}
+.btnRSContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btnRS{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 50px;
+    width: 320px;
+}
+.logoApple{
+    width: 50px;
+}
+.logoPlayStore{
+    width: 50px;
+    margin: 20px;
+    margin-left: 30px;
+}
+.textBtnContainer{
+    display: flex;
+    flex-direction: column;
+}
+.textBtnA{
+    font-size: 20px;
+}
+.textBtnB{
+    font-size: 30px;
+    font-weight: bold;
+}
+.SiguenosAdornosSection{
+    display: flex;
+    align-items: center;
+}
+.siguenosText{
+    font-size: 40px;
+}
+.redesSociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+.logoRS{
+    width: 50px;
+    margin-bottom: 15px;
+}

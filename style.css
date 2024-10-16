@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.slider-img-large {
+    width: 100%;       /* Ocupar todo el ancho del contenedor */
+    max-width: 1850px; /* Tamaño máximo permitido para la imagen */
+    height: auto;      /* Mantener las proporciones */
+    display: block;    /* Asegúrate de que la imagen no tenga margen extra */
+    margin: 0 auto;    /* Centra la imagen si es más pequeña que el contenedor */
+}
+
+/* Alineación de los botones usando Flexbox */
+.buttons {
+    display: flex;
+    justify-content: space-around;  /* Distribuye los botones de manera uniforme */
+    align-items: center;            /* Alinea los botones verticalmente en el centro */
+    padding: 20px;
+    flex-wrap: wrap;                /* Hace que los botones se ajusten a la pantalla si es necesario */
+    
+}
+
+.buttons .btn {
+    text-align: center;
+    flex: 1;
+    margin: 0 15px;
+    max-width: 200px;
+    background-color: transparent; /* Fondo transparente siempre */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: box-shadow 0.3s ease; /* Suaviza el efecto de sombra */
+}
+
+.buttons .btn img {
+    width: 100%; /* La imagen ocupa todo el botón */
+    height: auto; /* Mantener proporciones */
+    background-color: transparent; /* Asegura que el fondo de la imagen sea transparente */
+    border-radius: 25px; /* Mantener bordes redondeados */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.buttons .btn span {
+    font-size: 18px;
+    color: #333;
+}
+/* Asegurar que la transición sea suave */
+
+/* Asegurar que el enlace se comporte como un botón bloque */
+.buttons .btn a {
+    display: inline-block; /* Asegura que el enlace se comporte como un bloque */
+    width: 100%;           /* Ocupa todo el espacio del botón */
+    transition: transform 0.2s ease; /* Transición suave para el cambio de tamaño */
+    text-align: center;    /* Centrar el contenido */
+}
+
+/* Cuando se hace clic, reducir ligeramente el tamaño */
+
+.buttons .btn a.clicked {
+    transform: scale(0.98); /* Reducir el tamaño un 2% */
+}
+
+.buttons .btn:hover {
+    
+    background-color: transparent; /* Fondo transparente en hover */
+}
+.buttons .btn img:hover {
+    width: 100%; /* La imagen ocupa todo el botón */
+    height: auto; /* Mantener proporciones */
+    background-color: transparent; /* Asegura que la imagen no tenga fondo en hover */
+    border-radius: 25px; /* Mantener bordes redondeados */
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
