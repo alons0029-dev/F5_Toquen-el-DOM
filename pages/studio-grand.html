@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./styles/mainPiano.css">
-    <link rel="stylesheet" href="./styles/ocilador.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/mainPiano.css" />
+    <link rel="stylesheet" href="/styles/main.inicio.css" />
+    <link rel="stylesheet" href="/styles/piano.css" />
+    <link rel="stylesheet" href="/styles/ocilador-piano.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="./assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo" />
+        <img src="/assets/logo.png" alt="Do-Re-Mi_Estudio" class="logo" />
         <nav>
             <select title="SelectInstrument" id="SelectInstrument" onchange="pageNav()">
                 <option value="">Selecciona un instrumento</option>
@@ -35,11 +37,7 @@
         </nav>
     </header>
     <main>
-
-
-
         <div class="piano">
-            
             <div id="doN" class="tecla"></div>
             <div id="doSosN" class="teclaNegra CSos"></div>
             <div id="reN" class="tecla"></div>
@@ -53,30 +51,26 @@
             <div id="laSosN" class="teclaNegra ASos"></div>
             <div id="siN" class="tecla"></div>
             <div id="do8N" class="tecla"></div>
-            
         </div>
         <div class="panelDeControl">
             <label for="volumen">Volumen</label>
             <input type="range" id="volumen" min="0" max="1" step="0.01" value="0.5">
         </div>
-
-
-
     </main>
     <footer>
         <div class="SectionFooterAB">
-            <section class="sectionFooter sectionFooterA">
+            <section class="sectionFooterA">
                 <p>Descarga Do-Re-MI Studio para aprender en cualquier parte</p>
                 <div class="btnRSContainer">
-                    <button class="btnRS">
-                        <img class="logoApple" src="./assets/logoApple.png" alt="">
+                    <button type="button" class="btnRS">
+                        <img class="logoApple" src="/assets/logoApple.png" alt="apple-logo" />
                         <div class="textBtnContainer">
                             <span class="textBtnA">Download on the</span>
-                            <span class="textBtnB">App AppStoreBtn</span>
+                            <span class="textBtnB">AppStore</span>
                         </div>
                     </button>
-                    <button class="btnRS">
-                        <img class="logoPlayStore" src="./assets/logoPlayStore.png" alt="">
+                    <button type="button" class="btnRS">
+                        <img class="logoPlayStore" src="/assets/logoPlayStore.png" alt="playStore-logo" />
                         <div class="textBtnContainer">
                             <span class="textBtnA">Android App On</span>
                             <span class="textBtnB">Google Play</span>
@@ -84,7 +78,7 @@
                     </button>
                 </div>
             </section>
-            <section class="sectionFooter sectionFooterB">
+            <section class="sectionFooterB">
                 <p>Al usar Do-Re-Mi Studio, usted acepta estos términos de servicio. Estos terminos de servicio fueron acualizados por ultima vez el 1 de Noviembre de 2021</p>
                 <p>Do-Re-Mi Studio, se compromete a proteger si información personal y su derecho a la privacidad.
                     Crear una cuenta es sencillo y seguro, al tiempo que recopilamos una cantidad minima de datos. Esta política de privacidad fue actualizada por ultima vez el 1 de Junio del 2024
@@ -92,19 +86,28 @@
             </section>
         </div>
         <div class="SiguenosAdornosSection">
-            <img src="./assets/adornoLeft.png" alt="">
+            <img src="/assets/adornoLeft.png" alt="decoration-asset" />
             <span class="siguenosText">Siguenos!</span>
-            <img src="./assets/adornoRight.png" alt="">
+            <img src="/assets/adornoRight.png" alt="decoration-asset" />
         </div>
-        <section class="">
+        <section>
             <div class="redesSociales">
-                <img class="logoRS" src="./assets/logoInstagram.png" alt="">
-                <img class="logoRS" src="./assets/logoSoundCloud.png" alt="">
-                <img class="logoRS" src="./assets/logoTwitter.png" alt="">
-                <img class="logoRS" src="./assets/logoFacebook.png" alt="">
+                <a href="https://www.instagram.com">
+                    <img class="logoRS" src="/assets/logoInstagram.png" alt="instagram-logo" />
+                </a>
+                <a href="https://soundcloud.com/soundcloud">
+                    <img class="logoRS" src="/assets/logoSoundCloud.png" alt="soundcloud-logo" />
+                </a>
+                <a href="https://x.com/">
+                    <img class="logoRS" src="/assets/logoTwitter.png" alt="twitter-x-logo" />
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img class="logoRS" src="/assets/logoFacebook.png" alt="facebook-logo" />
+                </a>
             </div>
         </section>
     </footer>
-    <script src="./scripts/studio-grand.js"></script>
+    <script src="/script.js"></script>
+    <script src="/scripts/studio-grand.js"></script>
 </body>
 </html>
